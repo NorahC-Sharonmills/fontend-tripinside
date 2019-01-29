@@ -1,0 +1,150 @@
+.background {
+    width: 100%; 
+    height: 800px;
+    /* border: 1px solid red; */
+    /* white-space: nowrap;
+    
+    text-align: bottom; margin: 1em 0;
+    background-position: center bottom; 
+    position: relative; */
+
+    /* position:absolute; */
+    /* bottom: 50%; */
+    /* margin-top:-100px; */
+    
+    /* height: 100%;  */
+    /* position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1;  */
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+img{
+    vertical-align: middle;
+}
+.slider {
+    height: 600px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    /* width: 50%; */
+    /* border: 3px solid green; */
+    padding: 10px;
+  }
+.imguser{
+    /* width: 30px; */
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 25px;
+    background: red;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    --border-radius: 25px;
+    border-radius: 25px;
+}
+.imguserhome{
+    /* width: 30px; */
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: red;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    --border-radius: 25px;
+    border-radius: 25px;
+}
+.titlehometop{
+    margin-top: 10px;
+}
+.titlehome{
+    background: whitesmoke;
+    border-radius: 50px 20px;
+}
+.sitemap {
+    height: auto;
+    background: black;
+}
+.sitemapnew {
+    height: 600px;
+    background: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333333; */
+    /* width: 30%;
+    text-align: center; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    float: left;
+    width: 150px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    /* background-color: #111111; */
+  }
+  #centersitemap{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #textcenter {
+      text-align: center;
+  }
+  .image { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+ }
+ h2 { 
+    position: absolute; 
+    top: 100px; 
+    left: 0; 
+    width: 100%; 
+ }
+ 
+ h2 span { 
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px; 
+ }
+.background-color{
+    background: white
+}
+.body {
+    background: white;
+    display: block;
+}
+.centerzoom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
