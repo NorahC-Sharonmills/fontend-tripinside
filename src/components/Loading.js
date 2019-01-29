@@ -8,7 +8,7 @@ const override = css`
     margin: 0 auto;
     border-color: red;
     vertical-align: middle;
-    top: 180px;
+    top: 250px;
 `;
 
 export class Loading extends Component {

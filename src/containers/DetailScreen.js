@@ -59,9 +59,7 @@ class DetailScreen extends Component {
                 <br></br>
                 <br></br>
                 <br></br>
-                <br></br>
                 <h1 className="container">{this.state.title}</h1>
-                <br></br>
                 <hr/>
                     <div style={{ display: "flex", justifyContent: "space-between" }}>
                         <div>
@@ -74,7 +72,6 @@ class DetailScreen extends Component {
                 {displaydescripstion.map((article, index) => <div>
                     <h1>{article.descripstiondetail}</h1>
                     <i>{article.descripstiontitle}</i>
-                    <br></br>
                     <ZoomImage className="center" src={displayimages[index].images}/>
                 </div>)}
                 <hr/>

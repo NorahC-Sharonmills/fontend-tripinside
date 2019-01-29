@@ -72,6 +72,8 @@ export class SearchComponent extends Component {
                 <br></br>
                 <Masonry className={'my-gallery-class'} options={masonryOptions} disableImagesLoaded={false} updateOnEachImageLoad={false} imagesLoadedOptions={imagesLoadedOptions}>{_Image}</Masonry>
             </div>
+            <div className="marigintop"></div>
+            <hr/>
             <Sitemap></Sitemap>
         </div>}
       </div>

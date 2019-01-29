@@ -28,7 +28,7 @@ const Image = posed.img({
     },
     zoom: {
       position: 'fixed',
-      top: '50px',
+      top: '0px',
       left: '0%',
       right: '0%',
       width: '100%',
