@@ -11,14 +11,11 @@ export default class LoginScreen extends Component {
     componentDidMount() {
         axios.get('/api/images')
             .then(dt => {
-                console.log(dt.data);
                 setTimeout(() => {
                     this.setState({
                         images: dt.data,
                     });
                 }, 1000)
-
-                // this.state.images=data.data;
             })
             .catch(function (error) {
                 console.log(error);

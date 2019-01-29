@@ -46,7 +46,6 @@ export default class HomeScreen extends Component {
     render() {
 
         const displayedPosts = this.state.posts
-        console.log(this.state.searchbool);
         return (
             <div className="body">
                 { this.state.loading ? <Loading loadingbool={this.state.loading}></Loading> :

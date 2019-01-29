@@ -17,7 +17,6 @@ export default class LogoutButton extends Component {
   render() {
     return (
       <div className=" profile_panel text-center">
-        {/* {display} */}
         <button
           onClick={this.onLogout}
           className="logoutbtn btn btn-link btn-block"

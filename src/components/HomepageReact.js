@@ -12,9 +12,6 @@ export default class HomepageReact extends Component {
                     <div className="col">
                         <Like post={this.props.post} />
                     </div>
-                    {/* <div className="col-6">
-                        <Download />
-                    </div> */}
                 </div>
             </div>
         )

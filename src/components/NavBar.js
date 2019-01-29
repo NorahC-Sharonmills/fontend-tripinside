@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import SearchField from "./SearchField";
-import logo from "../images/techkids.png";
+import logo from "../images/BlackDeeredit.png";
 import ProfilePanel from "./ProfilePanel";
 import { BrowserRouter, Link, Route } from "react-router-dom";
 import Logout from './LogoutButton';
@@ -21,7 +21,7 @@ export default class NavBar extends Component {
       <div className=" container flex-column flex-md-row p-1 ">
         <div className="text-md-left text-center hvr-float-shadow col col-md-4 mb-3 mb-md-0 ">
           <Link to={`/`}>
-            <img className=" col-6 col-md-12 " src={logo} alt="techkid" />
+            <img style={{height: "40px", width: "160px"}} className=" col-6 col-md-12 " src={logo} alt="techkid" />
           </Link>
         </div>
         <div className="flex-row col col-md-8 m-0 p-0 text-center">

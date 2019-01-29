@@ -11,12 +11,6 @@ const imagesLoadedOptions = { background: '.my-bg-image-el' }
 
 export default class MainContent extends Component {
   render() {
-    // const allPosts = this.props.posts? this.props.posts.map(post =>
-    //   <div key={post._id} className="col-lg-4 col-md-6 row">
-    //       <Post post={post} />
-    //   </div>
-
-    // ) : ""
     const _Image = this.props.posts.map(img => {
       return (
         <div className="image-element-class col-md-4" key={img._id}>
@@ -39,13 +33,6 @@ export default class MainContent extends Component {
     });
 
     return (
-      // <div className="background-color">
-      //   <div className="container mt-5 pt-5 pt-md-0" >
-      //   <div className=" row align-items-start" style={{justifyContent: "space-around"}}>
-      //     {allPosts}
-      //   </div>
-      // </div>
-      // </div>
       <div className="container">
         <br></br>
         <Masonry className={'my-gallery-class'} options={masonryOptions} disableImagesLoaded={false} updateOnEachImageLoad={false} imagesLoadedOptions={imagesLoadedOptions}>{_Image}</Masonry>

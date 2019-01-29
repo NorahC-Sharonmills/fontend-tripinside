@@ -50,7 +50,6 @@ class DetailScreen extends Component {
         const displayimages = this.state.images;
         const displaydescripstion = this.state.descripstion;
         const comment = this.state.comment;
-        console.log(this.state.author.image);
         return (
             <div className="body">
                 {this.state.loading ? <Loading loadingbool={this.state.loading}></Loading> :

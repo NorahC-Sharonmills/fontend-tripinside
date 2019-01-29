@@ -15,28 +15,12 @@ class SearchField extends Component {
   }
 
   search(value) {
-    // this.props.searchBool = true;
-    // axios.get( `/api/post/search=${value}`)
-    //         .then(dt => {
-    //             setTimeout(() => {
-    //                 this.setState({
-    //                     posts: dt.data,
-    //                 });
-    //             }, 1000)
-    //             console.log(dt.data);
-    //         })
-    //         .catch(function (error) {
-    //             console.log(error);
-    //         });
     this.props.history.push(`/search/${value}`);
     
   }
 
   render() {
     return (
-        // <form>
-        //     <input onSubmit={this.handleSubmit} onChange={this.handleTextChange} className="form-control" type="text" placeholder="Search"/>
-        // </form>
         <FormGroup>
 
         <InputGroup>

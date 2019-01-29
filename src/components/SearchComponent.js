@@ -22,7 +22,6 @@ export class SearchComponent extends Component {
     }
 
     componentDidMount(){
-        console.log(window.location.pathname.split("/")[2]);
         axios.get( `/api/post/search=${window.location.pathname.split("/")[2]}`)
                 .then(dt => {
                     setTimeout(() => {

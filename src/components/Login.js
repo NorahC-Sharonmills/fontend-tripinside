@@ -14,7 +14,6 @@ class Login extends React.Component {
     this.toggle = this.toggle.bind(this);
   }
   onLogin = () => {
-    console.log(this.state)
     axios.post("/login", {
       username: this.state.username,//.taget.value
       password: this.state.password
